@@ -11,14 +11,14 @@ Follow the steps below to set up and run the project.
 ### 1. **Clone the Repository**
 - Clone the repository to your local machine:
 ```bash
-git clone <repository_url>
-cd <project_directory>
+git clone https://github.com/dhimanparas20/Customer-Loan-Management-System
+cd Customer-Loan-Management-System
 ```
 
 ### 2. **Build and Run the Docker Containers**
 - Run the following command to build and start the containers:
 ```bash
-sudo docker-compose up --build
+sudo docker compose up --build
 ```
 
 ### 3. **Access the Container**
@@ -73,6 +73,15 @@ python3 manage.py createsuperuser --username admin
 ```bash
 exit
 ```
+
+## Access the Application
+Once the setup is complete, the project will be available at:
+
+- Frontend and Admin Panel: http://localhost:80/admin/
+- API Endpoints: Accessible via http://localhost:80/api/*
+
+All the API endpoints are accessible, and debug is currently set to True for development purposes.
+
 
 ## API Endpoints
 
@@ -203,3 +212,7 @@ This endpoint retrieves all loan details of a specific customer.
     }
 ]
 ```
+## Conclusion
+You have successfully set up and started the Loan Management System. Feel free to explore the API endpoints and interact with the data as needed!
+
+For any issues or enhancements, feel free to contribute to the repository or raise an issue.
