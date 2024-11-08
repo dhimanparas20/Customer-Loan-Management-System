@@ -180,7 +180,7 @@ This endpoint retrieves details of a specific loan.
 }
 ```
 
-### 5. **/api/view-loans/{customer_id}/** (POST)
+### 5. **/api/view-loans/{customer_id}/** (GET)
 This endpoint retrieves all loan details of a specific customer.
 
 #### Response Body:
