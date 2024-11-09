@@ -172,7 +172,7 @@ class CreateLoanView(APIView):
 
             # Return success response
             return Response({
-                'loan_id': loan.id,
+                'loan_id': loan.loan_id,
                 'customer_id': customer_id,
                 'loan_approved': True,
                 'message': 'Loan approved successfully.',

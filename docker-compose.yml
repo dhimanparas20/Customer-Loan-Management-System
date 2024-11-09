@@ -17,6 +17,7 @@ services:
 
   db:
     image: postgres:13
+    restart: always
     environment:
       POSTGRES_DB: paras
       POSTGRES_USER: paras
