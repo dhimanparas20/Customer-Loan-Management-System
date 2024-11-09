@@ -157,7 +157,7 @@ This endpoint creates a new loan based on eligibility.
 }
 ```
 
-### 4. **/api/view-loan/{loan_id}** (POST)
+### 4. **/api/view-loan/{loan_id}** (GET)
 This endpoint retrieves details of a specific loan.
 
 #### Response Body:
@@ -180,7 +180,7 @@ This endpoint retrieves details of a specific loan.
 }
 ```
 
-### 5. **/api/view-loans/{customer_id}/** (POST)
+### 5. **/api/view-loans/{customer_id}/** (GET)
 This endpoint retrieves all loan details of a specific customer.
 
 #### Response Body:
